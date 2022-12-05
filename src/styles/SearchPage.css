@@ -1,0 +1,16 @@
+.search-container{width: 100%; text-align: center; color: #fff;
+    padding: 5rem 0; background-color: black;}
+.movie{display: inline-block; padding: 1.1rem; padding-bottom: 4rem;}
+
+.movie__column-poster{cursor: pointer; width: 420px; height: 210px;
+    box-sizing: border-box; border-radius: 5px; overflow: hidden;}
+
+.movie__poster{width: 100%; transition: all 0.4s ease-in-out 0s;}
+.movie__poster:hover{transform: scale(1.1);}
+
+.movie__txt{margin-top: 1rem; text-align: left;}
+.bottom_txt{font-size: 0.9rem; color: #999; }
+
+.no-results{display: flex; justify-content: center;
+    align-content: center; padding: 8rem;
+    color: #c5c5c5;}

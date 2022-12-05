@@ -1,0 +1,17 @@
+.nav{z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 40px;
+    padding: 20px; display: flex; justify-content: space-between;
+    align-items: center; transition: all 0.5s ease-in 0s;}
+
+.nav__black{background-color: #111;}
+
+.nav__logo{position: fixed; left: 40px; width: 100px; object-fit: contain;}
+
+.logoutBtn{position: fixed; right: 90px; width: 90px; height: 30px; cursor: pointer;
+    background: red; color: #fff; border-radius: 4px; border: none;}
+.logoutBtn:hover{background: rgb(225, 6, 6);}
+
+.nav__avatar{position: fixed; right: 40px; width: 30px; height: 30px; display: inline-block;}
+.nav__avatar_img{width: 30px; object-fit: contain;}
+
+.nav__input{position: fixed; width: 240px; height: 30px; left: 50%; transform: translateX(-50%); border: none; 
+    text-indent: 10px; background-color: #333; border-radius: 5px; color: #fff;}
